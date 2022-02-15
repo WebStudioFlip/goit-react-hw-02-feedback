@@ -17,11 +17,8 @@ FeedbackOptions.defaultProps = {
     options: []
 }
 
-FeedbackOptions.propTypes = {   
-    props: PropTypes.shape(
-        {
+FeedbackOptions.propTypes = {       
             options: PropTypes.array, 
-            onLeaveFeedback:PropTypes.func,
-        }
-    ) 
+            onLeaveFeedback:PropTypes.func,        
+    
 }

@@ -3,7 +3,6 @@ import Section from '../shared/Section'
 import Statistics from './Statistics'
 import  FeedbackOptions from './FeedbackOptions'
 
-console.log("start")
 
 class App extends Component {
 
